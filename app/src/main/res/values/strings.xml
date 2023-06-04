@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="new_user">New User?</string>
+    <string name="password">Password</string>
+    <string name="todo">TODO</string>
+    <string name="choose_a_driver">Choose a Driver</string>
+    <string name="username1">username</string>
+    <string name="username">username</string>
+    <string name="stuff">stuff</string>
+    <string name="food">food</string>
+</resources>

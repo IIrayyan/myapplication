@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".mazin"
+            android:exported="false" />
+        <activity
+            android:name=".haitham"
+            android:exported="false" />
+        <activity
+            android:name=".dawood"
+            android:exported="false" />
+        <activity
+            android:name=".mohanad"
+            android:exported="false" />
+        <activity
+            android:name=".sami"
+            android:exported="false" />
+        <activity
+            android:name=".ibrahim"
+            android:exported="false" />
+        <activity
+            android:name=".mohammed"
+            android:exported="false" />
+        <activity
+            android:name=".omar"
+            android:exported="false" />
+        <activity
+            android:name=".ahmed"
+            android:exported="false" />
+        <activity
+            android:name=".adam"
+            android:exported="false" />
+        <activity
+            android:name=".food_drivers"
+            android:exported="false" />
+        <activity
+            android:name=".stuff_drivers"
+            android:exported="false" />
+        <activity
+            android:name=".choosing_driver"
+            android:exported="false" />
+        <activity
+            android:name=".welcom_page"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
